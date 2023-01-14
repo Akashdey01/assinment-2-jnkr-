@@ -162,6 +162,16 @@ footer{
     font-weight: 700;
     font-size: 45px;
     color: var(--black);
+    position: relative;
+}
+.enjoy-title::before {
+	content: "";
+	position: absolute;
+	background-color: var(--orenge);
+	height: 98px;
+	width: 8px;
+	left: -15px;
+	top: 5px;
 }
 .enjoy-description{
     font-weight: var(--font-weight);
