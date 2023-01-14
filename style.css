@@ -23,6 +23,10 @@ header{
     background: rgba(255, 144, 14, 0.1);
 }
 
+footer{
+    background: rgba(255, 144, 14, 0.1);
+}
+
 /*------------------------- nav and header section  ------------------------*/
 
 .nav{
@@ -263,7 +267,49 @@ header{
 	height: 285px;
 }
 
+/*-------------------------------  Sponspors section styles  --------------------------*/
 
+.Sponspors-section{
+    margin-top: 130px;
+}
+.Sponspors-main-column {
+	position: relative;
+	left: 25%;
+}
+.Sponspors-left-column{
+    width: 50%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.Sponspors-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black);
+    margin-bottom: 24px;
+}
+.Sponspors-description{
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    color: var(--light-gray);
+}
+.Sponspors-right-column{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*--------------------------------  footer section styles  --------------------------*/
+
+.footer-container{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.footer-container p{
+    padding: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
 
 
 
