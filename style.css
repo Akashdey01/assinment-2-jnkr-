@@ -242,6 +242,27 @@ header{
     margin-bottom: 10px;
 }
 
+/*------------------------------  Gallery section styles  ----------------------------*/
+.gallery-section{
+    margin-top: 100px;
+}
+.gallery-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.gallery-container img {
+	width: 417px;
+	height: 285px;
+}
+
 
 
 
