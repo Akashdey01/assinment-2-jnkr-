@@ -354,6 +354,10 @@ footer{
         margin-bottom: 40px;
         margin-left: -55px;
     }
+    .banner-btn:hover{
+        background-color: var(--light-gray);
+        color: var(--white);
+    }
     .features-section {
         margin-top: 45px;
     }
