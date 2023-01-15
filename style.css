@@ -7,8 +7,9 @@
     --white: #fff;
 }
 
-*{
-    box-sizing: border-box;
+/*---------------------------------  Global CSS  --------------------------------*/
+
+*{  box-sizing: border-box;
     margin: 0;
 }
 
@@ -81,9 +82,8 @@ footer{
     transition: .5s;
 }
 .banner-btn:hover{
-    background-color: rgba(255, 144, 14, 0.1);
-    color: var(--orenge);
-    border: 1px solid var(--orenge);
+    background-color: var(--light-gray);
+    color: var(--white);
 }
 .banner-right-column img{
     width: 100%;
@@ -141,9 +141,8 @@ footer{
     transition: .5s;
 }
 .features-btn:hover{
-    background-color: var(--white);
-    color: var(--orenge);
-    border: 1px solid var(--orenge);
+    background-color: var(--light-gray);
+    color: var(--white);
 }
 
 /*-------------------------------  enjoy section styles  -----------------------------*/
@@ -206,9 +205,8 @@ footer{
     transition: .5s;
 }
 .enjoy-btn:hover{
-    background-color: var(--white);
-    color: var(--orenge);
-    border: 1px solid var(--orenge);
+    background-color: var(--light-gray);
+    color: var(--white);
 }
 .enjoy-right-column{
     margin-left: 80px;
@@ -323,6 +321,12 @@ footer{
 }
 
 /*----------------------------------- Responsive ------------------------------------*/
+
+
+                                        /*----------------
+                                        Responsive 400px 
+                                        ------------------*/
+
 
 @media only screen and (max-width: 400px){
     .nav-left-column h2 {
@@ -461,6 +465,10 @@ footer{
     }
 }
 
+                                        /*----------------
+                                        Responsive 400-688px 
+                                        ------------------*/
+
 
 @media only screen and (min-width: 401px) and (max-width: 688px){
     .nav-left-column h2 {
@@ -595,9 +603,6 @@ footer{
     }
 }
 
-.hide{
-    display: none;
-}
 
 
 
